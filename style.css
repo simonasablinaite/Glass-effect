@@ -1,3 +1,8 @@
+/* 
+font-family: 'Caveat', cursive;
+font-family: 'Rajdhani', sans-serif;
+*/
+
 * {
   margin: 0;
   padding: 0;
@@ -8,6 +13,7 @@ body {
   background: url(./img/abstract-rainbow-colorful-bright-feather-closeup-up-macro-view-background-plumage-texture-with-dew-drops_753134-644.avif);
   background-size: 100%;
   background-position: center;
+  font-family: "Rajdhani", sans-serif;
 }
 
 .container {
@@ -29,5 +35,7 @@ body {
   color: #f2f2f2;
   display: flex;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 150px;
+  font-size: 50px;
+  font-weight: 500;
 }
