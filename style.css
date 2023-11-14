@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(./img/abstract-rainbow-colorful-bright-feather-closeup-up-macro-view-background-plumage-texture-with-dew-drops_753134-644.avif);
+  background-size: 100%;
+  background-position: center;
+}
+
+.container {
+  width: 800px;
+  height: 400px;
+  margin: 100px auto;
+}
+
+/* GLASS EFFECT */
+.glass {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: 20px;
+  border: 1px solid rgba(225, 225, 225, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.title {
+  color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
